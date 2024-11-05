@@ -18,7 +18,8 @@
 ### Proje Gereksinimleri ve Varlıkların Detayları
 
 Bu proje, kullanıcıların sosyal medya üzerindeki davranışlarını analiz ederek, kişisel ilgi alanlarına göre özel içerik ve reklam önerileri sunmayı hedefler. Kullanıcı ve takipçi ilişkileri, gönderiler, popüler içerikler, reklamlar ve sosyal medya gibi birçok varlık arasındaki ilişkiler analiz edilmiştir.
-Veritabanı Temsili (Varlık-İlişki SQL Notasyonu)
+
+#Veritabanı Temsili (Varlık-İlişki SQL Notasyonu)
 
     Kullanıcı
     (Kullanıcı ID (PK), İsim)
