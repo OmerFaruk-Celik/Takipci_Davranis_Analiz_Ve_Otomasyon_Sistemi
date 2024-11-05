@@ -95,7 +95,6 @@ Projedeki varlıklar arasındaki ilişkileri gösteren basit ER diyagramı aşa�
   <img src="pictures/VTYS_GRUP16(4).png" alt="ER Diyagramı" width="1200"/>
 </p>
 
-NOT: E-R diyagramında gösterilen ilişkiler çarpraz olup tersinedir.
 ### Proje Amacı
 
 Bu proje, sosyal medya platformları üzerinde kullanıcıların etkileşimlerini analiz ederek, onlara özel içerik ve reklam önerileri sunmayı ve kullanıcının kitleye özgü ürünler oluşturmasını hedefler.
