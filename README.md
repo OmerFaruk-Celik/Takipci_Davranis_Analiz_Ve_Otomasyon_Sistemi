@@ -9,9 +9,9 @@
 
 | Numarası    | Ad                                  | Soyadı     |
 |-------------|-------------------------------------|------------|
-| 220260138   | [Ömer Faruk](https://github.com/OmerFaruk-Celik)   | Çelik      |
-| 210260304   | [Resul](https://github.com/Resulkacary/Resulkacary)           | Kaçar      |
-| 220260124   | [Muhammed Raşid](https://github.com/mryln) | Yılan     |
+| 220260138   | [Ömer Faruk](https://github.com/OmerFaruk-Celik/Takipci_Davranis_Analiz_Ve_Otomasyon_Sistemi)   | Çelik      |
+| 210260304   | [Resul](https://github.com/Resulkacary/Takipci_Davranis_Analiz_Ve_Otomasyon_Sistemi)           | Kaçar      |
+| 220260124   | [Muhammed Raşid](https://github.com/mryln/Takipci_Davranis_Analiz_Ve_Otomasyon_Sistemi) | Yılan     |
 
 ---
 
