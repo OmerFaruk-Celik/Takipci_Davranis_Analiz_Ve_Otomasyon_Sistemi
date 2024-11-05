@@ -9,7 +9,7 @@
 
 | Numarası    | Ad                                  | Soyadı     |
 |-------------|-------------------------------------|------------|
-| 220260138   | [Ömer Faruk](https://github.com/OmerFaruk-Celik)   | Çelik      |
+| 220260138   | [Ömer Faruk](https://github.com/OmerFaruk-Celik/Takipci_Davranis_Analiz_Ve_Otomasyon_Sistemi.git)   | Çelik      |
 | 210260304   | [Resul](https://github.com/Resulkacary/Takipci_Davranis_Analiz_Ve_Otomasyon_Sistemi.git)           | Kaçar      |
 | 220260124   | [Muhammed Raşid](https://github.com/mryln) | Yılan     |
 
