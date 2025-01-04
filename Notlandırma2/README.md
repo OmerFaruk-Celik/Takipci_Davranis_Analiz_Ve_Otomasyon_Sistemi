@@ -1,4 +1,4 @@
-# Veritabanı Tasarımı - Sosyal Medya Platformu
+# TDAS(Takipçi Davranışı ve Analiz Otomasyon Sistemi)
 
 Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. Aşağıda varlıklar ve ilişkilerin detaylı açıklamaları verilmiştir.
 
@@ -110,14 +110,8 @@ Bu veritabanı tasarımı, bir sosyal medya platformunda kullanıcılar, gruplar
 - *Primary Key (PK)*: Tablodaki her kaydı benzersiz şekilde tanımlar.
 - *Foreign Key (FK)*: Diğer tablolardaki kayıtlara referans verir.
 
----
 
-## 📋 Notlar
-- Bu veritabanı tasarımı 3NF (3. Normal Form) prensiplerine göre oluşturulmuştur.
-- Yabancı anahtarlar ile ilişkiler güvence altına alınmıştır.
-- Performansı artırmak için uygun indeksleme yapılması önerilir.
 
----
 
 ## 📂 SQL Dosyası
 Bu yapıyı oluşturan SQL dosyalarına erişmek için [proje repository'sine](#) göz atabilirsiniz.
