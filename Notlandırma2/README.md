@@ -16,7 +16,7 @@ Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. A
 
 ---
 
-### 2. *Yayınlar ve Reklamlar*
+### 2. *Yayınlar ve Reklamlar* değişiecek
 - *Yayinlar*(YayinID (PK)(YayinTarihi,SosyalMedyaIsim (FK))
 
 - *Reklam*(ReklamID (PK), Tur, ReklamKategori, TiklanmaSayisi, GosterimSayisi)
