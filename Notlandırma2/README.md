@@ -9,14 +9,9 @@ Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. A
 ### 1. *Sosyal Medya ve Kullanıcı*
 - *SosyalMedya*(Isim (PK), KullaniciAdi, Eposta, Sifre)
 
-- *Kullanici*
-  - KullaniciID (PK)
-  - KullaniciIsim
+- *Kullanici*(KullaniciID (PK), KullaniciIsim)
 
-- *Kullanir* (Kullanıcı ve Sosyal Medya İlişkisi)
-  - KullaniciID (FK)
-  - SosyalMedyaIsim (FK)
-  - KatilimTarihi
+- *Kullanir* (Kullanıcı ve Sosyal Medya İlişkisi)(KullaniciID (FK), SosyalMedyaIsim (FK), KatilimTarihi
   - *PRIMARY KEY*: (KullaniciID, SosyalMedyaIsim)
 
 ---
