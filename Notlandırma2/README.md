@@ -17,48 +17,25 @@ Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. A
 ---
 
 ### 2. *Yayınlar ve Reklamlar*
-- *Yayinlar*
-  - YayinID (PK)
-  - YayinTarihi
-  - SosyalMedyaIsim (FK)
+- *Yayinlar*(YayinID (PK)(YayinTarihi,SosyalMedyaIsim (FK))
 
-- *Reklam*
-  - ReklamID (PK)
-  - Tur
-  - ReklamKategori
-  - TiklanmaSayisi
-  - GosterimSayisi
+- *Reklam*(ReklamID (PK), Tur, ReklamKategori, TiklanmaSayisi, GosterimSayisi)
 
-- *Gosterilme* (Reklam ve Yayınlar İlişkisi)
-  - ReklamID (FK)
-  - YayinID (FK)
+- *Gosterilme* (Reklam ve Yayınlar İlişkisi)(ReklamID (FK), YayinID (FK))
   - *PRIMARY KEY*: (ReklamID, YayinID)
 
 ---
 
 ### 3. *Gruplar ve Katılım*
-- *Gruplar*
-  - GrupID (PK)
-  - UyeSayisi
-  - Rol
+- *Gruplar*(GrupID (PK)(UyeSayisi, Rol)
 
-- *Katil* (Kullanıcı ve Gruplar İlişkisi)
-  - KullaniciID (FK)
-  - GrupID (FK)
-  - KatilimTarihi
+- *Katil* (Kullanıcı ve Gruplar İlişkisi)(KullaniciID (FK), GrupID (FK), KatilimTarihi)
   - *PRIMARY KEY*: (KullaniciID, GrupID)
 
 ---
 
 ### 4. *Gönderiler ve Etkileşimler*
-- *Gonderi*
-  - GonderiID (PK)
-  - GonderiMetni
-  - Gorunurluk
-  - GonderiTarihi
-  - GonderiTur
-  - YorumSayisi
-  - BegeniSayisi
+- *Gonderi*( GonderiID (PK), GonderiMetni, Gorunurluk, GonderiTarihi, GonderiTur, YorumSayisi, BegeniSayisi)
 
 - *Begeni* (Kullanıcı ve Gönderi İlişkisi)
   - KullaniciID (FK)
