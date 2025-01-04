@@ -37,37 +37,24 @@ Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. A
 ### 4. *Gönderiler ve Etkileşimler*
 - *Gonderi*( GonderiID (PK), GonderiMetni, Gorunurluk, GonderiTarihi, GonderiTur, YorumSayisi, BegeniSayisi)
 
-- *Begeni* (Kullanıcı ve Gönderi İlişkisi)
-  - KullaniciID (FK)
-  - GonderiID (FK)
+- *Begeni* (Kullanıcı ve Gönderi İlişkisi)( KullaniciID (FK), GonderiID (FK))
   - *PRIMARY KEY*: (KullaniciID, GonderiID)
 
-- *Yorum* (Kullanıcı ve Gönderi İlişkisi)
-  - KullaniciID (FK)
-  - GonderiID (FK)
-  - YorumMetni
+- *Yorum* (Kullanıcı ve Gönderi İlişkisi)( KullaniciID (FK), GonderiID (FK), YorumMetni)
   - *PRIMARY KEY*: (KullaniciID, GonderiID)
 
 ---
 
 ### 5. *Popüler İçerik*
-- *PopulerIcerik*
-  - IcerikID (PK)
-  - Tur
-  - Goruntuluk
+- *PopulerIcerik*( IcerikID (PK), Tur, Goruntuluk)
 
-- *Alma* (Popüler İçerik ve Gönderi İlişkisi)
-  - IcerikID (FK)
-  - GonderiID (FK)
+- *Alma* (Popüler İçerik ve Gönderi İlişkisi)( IcerikID (FK), GonderiID (FK))
   - *PRIMARY KEY*: (IcerikID, GonderiID)
 
 ---
 
 ### 6. *Takipçi İlişkisi*
-- *Takipci*
-  - Username (PK)
-  - TakipEdilen
-  - TakipTarihi
+- *Takipci*( Username (PK), TakipEdilen, TakipTarihi)
 
 ---
 
