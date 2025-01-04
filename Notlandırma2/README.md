@@ -7,11 +7,7 @@ Bu proje, bir sosyal medya platformunun veritabanı tasarımını temsil eder. A
 ## 🗂️ Varlıklar ve İlişkiler
 
 ### 1. *Sosyal Medya ve Kullanıcı*
-- *SosyalMedya*
-  - Isim (PK)
-  - KullaniciAdi
-  - Eposta
-  - Sifre
+- *SosyalMedya*(Isim (PK), KullaniciAdi, Eposta, Sifre)
 
 - *Kullanici*
   - KullaniciID (PK)
